@@ -1,0 +1,70 @@
+#config.txt
+#test config file for OT/VP.
+
+#########################################################
+#							#
+#	Copy this file to the working directory		#
+#							#
+#########################################################
+
+
+#########################################################
+#							#
+#	Specify user paths to programs required		#
+#							#
+#########################################################
+
+#User Path to 01-hpipeline:
+path = /Users/h.mendel/Documents/PhD/NP_pipeline/01-hpipeline 
+
+#Path to query database (.fna)
+query_path = /Users/h.mendel/Documents/PhD/NP_pipeline/01-hpipeline/data/03-trial_query
+
+#Fasta path/to/fasta36
+fasta_path = /usr/local/bin/fasta36
+
+#HMMER path/to/hmmer
+hmmer_path = /usr/local/bin
+
+#signalp_path
+signalp_path = /usr/local/bin/signalp-4.1/signalp
+
+#NCBI path:
+ncbi_path = /usr/local/ncbi/blast/bin
+
+#sqlite3
+sqlite3_path = /usr/bin/sqlite3
+
+#########################################################################
+#									#
+#	Specify neuropeptide to be searched and search variables. 	#
+#									#
+#########################################################################
+
+#Neuropeptide family to search for.
+#Choose from:
+#test_NP
+#test_OTVP
+#insulin
+#natriureticpeptides
+#oxytocin
+#tachykinin
+
+neuropeptide_family = test_OTVP
+
+
+#CDS variables
+#Not all the UniProt reviewed entries are complete precursor sequences; there are numerous #mature sequences. Therefore, setting a high CDS min length may be counterproductive. 
+cds_min_length = 50
+
+#Signal P variables
+sp_cutoff = 0.41
+sp_min_length = 8
+
+#Mature variables
+mature_min_length = 7
+mature_max_length = 15
+mature_evalue_cutoff = 1
+
+
+
