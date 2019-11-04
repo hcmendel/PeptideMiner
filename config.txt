@@ -1,0 +1,69 @@
+#config.txt
+
+
+#########################################################
+#							#
+#	Copy this file to the working directory		#
+#							#
+#########################################################
+
+
+#########################################################
+#							#
+#	Specify user paths to programs required		#
+#							#
+#########################################################
+
+#Path to NPpip:
+path = /PATH/TO/NPpip
+
+#Path to query database
+query_path = /PATH/TO/QUERY/DATABASE
+
+#Fasta path/to/fasta36
+fasta_path = /PATH/TO/fasta36
+
+#HMMER path/to/hmmer
+hmmer_path = /PATH/TO/HMMER
+
+#signalp_path
+signalp_path = /PATH/TO/signalp-4.1/signalp
+
+#NCBI path:
+ncbi_path = /PATH/TO/ncbi/blast
+
+#sqlite3
+sqlite3_path = /PATH/TO/sqlite3
+
+
+#########################################################################
+#									#
+#	Specify neuropeptide to be searched and search variables. 	#
+#									#
+#########################################################################
+
+#Neuropeptide family to search for.
+#Choose from:
+#test_OTVP
+#insulin
+#natriureticpeptides
+#oxytocin
+#tachykinin
+
+#!To run a test run, choose test_OTVP!
+
+neuropeptide_family = test_OTVP
+
+#CDS variable
+cds_min_length = 50
+
+#Signal P variables
+sp_cutoff = 0.41
+sp_min_length = 8
+
+#Mature variables
+mature_min_length = 7
+mature_max_length = 15
+mature_evalue_cutoff = 1
+
+
