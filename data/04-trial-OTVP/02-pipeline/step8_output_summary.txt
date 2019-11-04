@@ -1,0 +1,13 @@
+Summary NPpip peptide search
+Date: 20191104
+
+Number of profile-HMMs used: 1
+	test_OTVP_mat-pre.hmm
+Number of databases searched: 1
+	test_OTVP.fna
+
+Output:
+hmmsearch hits: 61
+NPpip hits: 56
+	Number of different CDS: 51
+	Number of different mature peptides: 24
