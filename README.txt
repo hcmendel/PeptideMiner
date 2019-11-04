@@ -29,9 +29,3 @@ To run a test run.
 2. In config.txt set query database path to /PATH/TO/01-hpipeline/data and neuropeptide family to test.
 
 3. run main.py from 01-hpipeline/test-output
-
-
-
-
-
-
