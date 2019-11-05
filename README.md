@@ -5,7 +5,7 @@ NPpip neuropeptide mining pipeline
 
 Readme.txt file for NPpip
 
-NPpip is a pipeline that uses profile hidden Markov models (profile-HMMs) of neuropeptide families to search query datasets for neuropeptide homologues. This document outlines the program requirements (section 1), how to do a test run (section 2) and the profile-HMMs is comes with (section 3). 
+NPpip is a pipeline that uses profile hidden Markov models (profile-HMMs) of neuropeptide families to search query datasets for neuropeptide homologues. This document outlines the program requirements (section 1), how to do a test run (section 2) and the profile-HMMs it comes with (section 3). 
 
 
 # 1. NPpip running requirements
