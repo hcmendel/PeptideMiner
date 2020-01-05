@@ -1,7 +1,7 @@
 
 
 """
-NPpip
+PeptideMiner
 Neuropeptide search pipeline
 
 Pipeline requirements:
@@ -127,7 +127,7 @@ if not output.check_step_has_run('step8'):
     print 'Running step 8'
     step8.run()
 
-print 'NPpip search is complete'
+print 'PeptideMiner search is complete'
 
 
 
