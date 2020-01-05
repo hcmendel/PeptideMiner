@@ -48,7 +48,7 @@ def analysis():
     file_step8 = './02-pipeline/step8.csv'
     step8 = parse(file_step8)
 
-    nppiphits = set(l[0] for l in step8)
+    PeptideMinerhits = set(l[0] for l in step8)
     querydb = set(l[3] for l in step8)
     phmm = set(l[2] for l in step8)
     unique_matseq = set(l[8] for l in step8)
@@ -69,7 +69,7 @@ def analysis():
 
     """Summart txt output"""
     with open('./02-pipeline/step8_output_summary.txt','w') as out:
-        out.write('Summary NPpip peptide search\n')
+        out.write('Summary PeptideMiner peptide search\n')
         out.write('Date: {}\n'.format(date))
         out.write('\n')
         out.write('Number of profile-HMMs used: {}\n'.format(len(hmms)))
@@ -78,7 +78,7 @@ def analysis():
         out.write('\t{}\n\n'.format(','.join(queries)))
         out.write('Output:\n')
         out.write('hmmsearch hits: {}\n'.format(n_hmmsout))
-        out.write('NPpip hits: {}\n'.format(len(nppiphits)))
+        out.write('PeptideMiner hits: {}\n'.format(len(PeptideMinerhits)))
         out.write('\tNumber of unique CDS: {}\n'.format(len(unique_pre)))
         out.write('\tNumber of unique mature peptides: {}\n'.format(len(unique_matseq)))
     
