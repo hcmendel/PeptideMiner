@@ -14,8 +14,8 @@
 #							#
 #########################################################
 
-#Path to NPpip:
-path = /PATH/TO/NPpip
+#Path to PeptideMiner:
+path = /PATH/TO/PeptideMiner
 
 #Path to query database
 query_path = /PATH/TO/QUERY/DATABASE
